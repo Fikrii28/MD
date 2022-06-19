@@ -542,7 +542,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
             case 'donasi': case 'donate': {
-               hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a2492a1114ac7622de670.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n ─────「 DONATE 」 ───*
+               hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a2492a1114ac7622de670.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n *─────「 DONATE 」 ───*
 ╭═════════════
 ║╭─── [ DONASI ] ───
 ║│➸ _*Dana*_✅ : 
@@ -1661,7 +1661,7 @@ break
                 hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/api/random/'+command, {}, 'apikey') }, caption: 'Generate Random ' + command }, { quoted: m })
             }
             break 
-            case 'anime': case 'waifu': case 'husbu': case 'neko': case 'shinobu': case 'megumin': {
+            case 'anime': case 'shinka': case 'sasuke': case 'sakura': case 'miku': case 'waifu': case 'husbu': case 'neko': case 'shinobu': case 'megumin': {
                 m.reply(mess.wait)
                 hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/api/random/'+command, {}, 'apikey') }, caption: 'Generate Random ' + command }, { quoted: m })
             }
