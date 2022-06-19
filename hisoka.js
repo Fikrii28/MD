@@ -1653,10 +1653,15 @@ break
             case 'cecan': case 'china': case 'thailand':  case 'kayes': case 'aeunicetjoaa': case 'natajadeh': {
                 m.reply(mess.wait)
                 let fetch = await global.api("zenz", "/randomasupan/" + command, {}, "apikey")
-                hisoka.sendFile(m.from, fetch, "", m, { caption: "Random TikTok Asupan" }, { quoted: m })
+                hisoka.sendFile(m.from, fetch, "vidio", m, { caption: "Random TikTok Asupan" }, { quoted: m })
             }
            break
-            case 'anime': case 'waifu': case 'husbu': case 'neko': case 'shinobu': case 'megumin': case 'waifus': case 'nekos': case 'trap': case 'blowjob': {
+            case 'waifus': case 'nekos': case 'trap': case 'hentai': case 'ass': case 'paizuri': case 'blowjob': {
+                m.reply(mess.wait)
+                hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/api/random/'+command, {}, 'apikey') }, caption: 'Generate Random ' + command }, { quoted: m })
+            }
+            break 
+            case 'anime': case 'waifu': case 'husbu': case 'neko': case 'shinobu': case 'megumin': {
                 m.reply(mess.wait)
                 hisoka.sendMessage(m.chat, { image: { url: api('zenz', '/api/random/'+command, {}, 'apikey') }, caption: 'Generate Random ' + command }, { quoted: m })
             }
@@ -3026,7 +3031,7 @@ untuk membuat stiker dan lain lain
 
 ⌕ ${prefix}attp
 ⌕ ${prefix}ttp
-⌕ {prefix}toimage
+⌕ ${prefix}toimage
 ⌕ ${prefix}removebg
 ⌕ ${prefix}sticker
 ⌕ ${prefix}emojimix
