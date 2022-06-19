@@ -2868,7 +2868,7 @@ untuk membuat stiker dan lain lain
 ⌕ ${prefix}husbu
 ⌕ ${prefix}neko
 ⌕ ${prefix}shinobu
-⌕{prefix}megumin
+⌕ {prefix}megumin
 ⌕ ${prefix}uniform
 ⌕ ${prefix}maid
 
@@ -2995,7 +2995,7 @@ untuk membuat stiker dan lain lain
 
 ⌕ ${prefix}attp
 ⌕ ${prefix}ttp
-⌕{prefix}toimage
+⌕ {prefix}toimage
 ⌕ ${prefix}removebg
 ⌕ ${prefix}sticker
 ⌕ ${prefix}emojimix
