@@ -566,8 +566,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 ╠═〘 𝐏𝐄𝐌𝐁𝐀𝐘𝐀𝐑𝐀𝐍 〙 ═
 ╠➥ DANA/GOPAY
 ║
-╠═ Tertarik Untuk Beli Bot Ini Hubungi No Di Bawah?
-(
+╠═ Tertarik Untuk Beli Bot Ini (Hubungi No Di Bawah?)
 ╠➥ wa.me/6281233738677` }, { quoted: m })
             }
             break
