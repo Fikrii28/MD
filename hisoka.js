@@ -2786,362 +2786,327 @@ let capt = `⭔ Title: ${judul}
             }
             break
             case 'list': case 'menu': case 'help': case '?': {
-                anu = `┌──⭓ *Group Menu*
-│
-│⭔ ${prefix}linkgroup
-│⭔ ${prefix}ephemeral [option]
-│⭔ ${prefix}setppgc [image]
-│⭔ ${prefix}setname [text]
-│⭔ ${prefix}setdesc [text]
-│⭔ ${prefix}group [option]
-│⭔ ${prefix}editinfo [option]
-│⭔ ${prefix}add @user
-│⭔ ${prefix}kick @user
-│⭔ ${prefix}hidetag [text]
-│⭔ ${prefix}tagall [text]
-│⭔ ${prefix}totag [reply]
-│⭔ ${prefix}antilink [on/off]
-│⭔ ${prefix}mute [on/off]
-│⭔ ${prefix}promote @user
-│⭔ ${prefix}demote @user
-│⭔ ${prefix}vote [text]
-│⭔ ${prefix}devote
-│⭔ ${prefix}upvote
-│⭔ ${prefix}cekvote
-│⭔ ${prefix}hapusvote
-│
-└───────⭓
+                anu = `Hai kak ${pushname}
 
-┌──⭓ *Webzone Menu*
-│
-│⭔ ${prefix}playstore
-│⭔ ${prefix}gsmarena
-│⭔ ${prefix}jadwalbioskop
-│⭔ ${prefix}nowplayingbioskop
-│⭔ ${prefix}aminio
-│⭔ ${prefix}wattpad
-│⭔ ${prefix}webtoons
-│⭔ ${prefix}drakor
-│
-└───────⭓
+Saya adalah Bot Whatsapp yang memudahakan anda
+untuk membuat stiker dan lain lain
+
+✘ *I N F O - B O T*
+
+⌕ *Runtime:* _${runtime(process.uptime())}_
+⌕ *Tanggal:* _${moment.tz('Asia/Jakarta').format('DD/MM/YY')}_
+⌕ *Waktu:* _${moment.tz('Asia/Jakarta').format('HH:mm:ss')}_             
+⌕ *Library:* _Baileys-Md_
 
 
-┌──⭓ *Downloader Menu*
-│
-│⭔ ${prefix}tiktoknowm [url]
-│⭔ ${prefix}tiktokwm [url]
-│⭔ ${prefix}tiktokmp3 [url]
-│⭔ ${prefix}instagram [url]
-│⭔ ${prefix}twitter [url]
-│⭔ ${prefix}twittermp3 [url]
-│⭔ ${prefix}facebook [url]
-│⭔ ${prefix}pinterestdl [url]
-│⭔ ${prefix}ytmp3 [url]
-│⭔ ${prefix}ytmp4 [url]
-│⭔ ${prefix}getmusic [query]
-│⭔ ${prefix}getvideo [query]
-│⭔ ${prefix}umma [url]
-│⭔ ${prefix}joox [query]
-│⭔ ${prefix}soundcloud [url]
-│
-└───────⭓
+✘ *G R O U P - F E A T U R E*
 
-┌──⭓ *Search Menu*
-│
-│⭔ ${prefix}play [query]
-│⭔ ${prefix}yts [query]
-│⭔ ${prefix}google [query]
-│⭔ ${prefix}gimage [query]
-│⭔ ${prefix}pinterest [query]
-│⭔ ${prefix}wallpaper [query]
-│⭔ ${prefix}wikimedia [query]
-│⭔ ${prefix}ytsearch [query]
-│⭔ ${prefix}ringtone [query]
-│⭔ ${prefix}stalk [option] [query]
-│
-└───────⭓
+⌕ ${prefix}linkgroup
+⌕ ${prefix}ephemeral [option]
+⌕ ${prefix}setppgc [image]
+⌕ ${prefix}setname [text]
+⌕ ${prefix}setdesc [text]
+⌕ ${prefix}group [option]
+⌕ ${prefix}editinfo [option]
+⌕ ${prefix}add @user
+⌕ ${prefix}kick @user
+⌕ ${prefix}hidetag [text]
+⌕ ${prefix}tagall [text]
+⌕ ${prefix}antilink [on/off]
+⌕ ${prefix}mute [on/off]
+⌕ ${prefix}promote @user
+⌕ ${prefix}demote @user
+⌕ ${prefix}vote [text]
+⌕ ${prefix}devote
+⌕ ${prefix}upvote
+⌕ ${prefix}cekvote
+⌕ ${prefix}hapusvote
 
-┌──⭓ *Random Menu*
-│
-│⭔ ${prefix}coffe
-│⭔ ${prefix}quotesanime
-│⭔ ${prefix}motivasi
-│⭔ ${prefix}dilanquote
-│⭔ ${prefix}bucinquote
-│⭔ ${prefix}katasenja
-│⭔ ${prefix}puisi
-│⭔ ${prefix}couple
-│⭔ ${prefix}anime
-│⭔ ${prefix}waifu
-│⭔ ${prefix}husbu
-│⭔ ${prefix}neko
-│⭔ ${prefix}shinobu
-│⭔ ${prefix}waifus (nsfw)
-│⭔ ${prefix}nekos (nsfw)
-│⭔ ${prefix}trap (nsfw)
-│⭔ ${prefix}blowjob (nsfw)
-│
-└───────⭓
+✘ *D O W N L O A D E R*
 
-┌──⭓ *Text Pro Menu*
-│
-│⭔ ${prefix}3dchristmas
-│⭔ ${prefix}3ddeepsea
-│⭔ ${prefix}americanflag
-│⭔ ${prefix}3dscifi
-│⭔ ${prefix}3drainbow
-│⭔ ${prefix}3dwaterpipe
-│⭔ ${prefix}halloweenskeleton
-│⭔ ${prefix}sketch
-│⭔ ${prefix}bluecircuit
-│⭔ ${prefix}space
-│⭔ ${prefix}metallic
-│⭔ ${prefix}fiction
-│⭔ ${prefix}greenhorror
-│⭔ ${prefix}transformer
-│⭔ ${prefix}berry
-│⭔ ${prefix}thunder
-│⭔ ${prefix}magma
-│⭔ ${prefix}3dcrackedstone
-│⭔ ${prefix}3dneonlight
-│⭔ ${prefix}impressiveglitch
-│⭔ ${prefix}naturalleaves
-│⭔ ${prefix}fireworksparkle
-│⭔ ${prefix}matrix
-│⭔ ${prefix}dropwater
-│⭔ ${prefix}harrypotter
-│⭔ ${prefix}foggywindow
-│⭔ ${prefix}neondevils
-│⭔ ${prefix}christmasholiday
-│⭔ ${prefix}3dgradient
-│⭔ ${prefix}blackpink
-│⭔ ${prefix}gluetext
-│
-└───────⭓
+⌕ ${prefix}tiktoknowm [url]
+⌕ ${prefix}tiktokwm [url]
+⌕ ${prefix}tiktokmp3 [url]
+⌕ ${prefix}instagram [url]
+⌕ ${prefix}twitter [url]
+⌕ ${prefix}twittermp3 [url]
+⌕ ${prefix}facebook [url]
+⌕ ${prefix}pinterestdl [url]
+⌕ ${prefix}ytmp3 [url]
+⌕ ${prefix}ytmp4 [url]
+⌕ ${prefix}getmusic [query]
+⌕ ${prefix}getvideo [query]
+⌕ ${prefix}umma [url]
+⌕ ${prefix}joox [query]
+⌕ ${prefix}soundcloud [url]
 
-┌──⭓ *Photo Oxy Menu*
-│
-│⭔ ${prefix}shadow
-│⭔ ${prefix}romantic
-│⭔ ${prefix}smoke
-│⭔ ${prefix}burnpapper
-│⭔ ${prefix}naruto
-│⭔ ${prefix}lovemsg
-│⭔ ${prefix}grassmsg
-│⭔ ${prefix}lovetext
-│⭔ ${prefix}coffecup
-│⭔ ${prefix}butterfly
-│⭔ ${prefix}harrypotter
-│⭔ ${prefix}retrolol
-│
-└───────⭓
+✘ *S E A R C H - F E A T U R E*
 
-┌──⭓ *Ephoto Menu*
-│
-│⭔ ${prefix}ffcover
-│⭔ ${prefix}crossfire
-│⭔ ${prefix}galaxy
-│⭔ ${prefix}glass
-│⭔ ${prefix}neon
-│⭔ ${prefix}beach
-│⭔ ${prefix}blackpink
-│⭔ ${prefix}igcertificate
-│⭔ ${prefix}ytcertificate
-│
-└───────⭓
+⌕ ${prefix}play [query]
+⌕ ${prefix}yts [query]
+⌕ ${prefix}google [query]
+⌕ ${prefix}gimage [query]
+⌕ ${prefix}pinterest [query]
+⌕ ${prefix}wallpaper [query]
+⌕ ${prefix}wikimedia [query]
+⌕ ${prefix}ytsearch [query]
+⌕ ${prefix}ringtone [query]
+⌕ ${prefix}stalk [option] [query]
 
-┌──⭓ *Fun Menu*
-│
-│⭔ ${prefix}simih
-│⭔ ${prefix}halah
-│⭔ ${prefix}hilih
-│⭔ ${prefix}huluh
-│⭔ ${prefix}heleh
-│⭔ ${prefix}holoh
-│⭔ ${prefix}jadian
-│⭔ ${prefix}jodohku
-│⭔ ${prefix}delttt
-│⭔ ${prefix}tictactoe
-│⭔ ${prefix}family100
-│⭔ ${prefix}tebak [option]
-│⭔ ${prefix}math [mode]
-│⭔ ${prefix}suitpvp [@tag]
-│
-└───────⭓
+✘ *R A N D O M*
 
-┌──⭓ *Primbon Menu*
-│
-│⭔ ${prefix}nomorhoki
-│⭔ ${prefix}artimimpi
-│⭔ ${prefix}artinama
-│⭔ ${prefix}ramaljodoh
-│⭔ ${prefix}ramaljodohbali
-│⭔ ${prefix}suamiistri
-│⭔ ${prefix}ramalcinta
-│⭔ ${prefix}cocoknama
-│⭔ ${prefix}pasangan
-│⭔ ${prefix}jadiannikah
-│⭔ ${prefix}sifatusaha
-│⭔ ${prefix}rezeki
-│⭔ ${prefix}pekerjaan
-│⭔ ${prefix}nasib
-│⭔ ${prefix}penyakit
-│⭔ ${prefix}tarot
-│⭔ ${prefix}fengshui
-│⭔ ${prefix}haribaik
-│⭔ ${prefix}harisangar
-│⭔ ${prefix}harisial
-│⭔ ${prefix}nagahari
-│⭔ ${prefix}arahrezeki
-│⭔ ${prefix}peruntungan
-│⭔ ${prefix}weton
-│⭔ ${prefix}karakter
-│⭔ ${prefix}keberuntungan
-│⭔ ${prefix}memancing
-│⭔ ${prefix}masasubur
-│⭔ ${prefix}zodiak
-│⭔ ${prefix}shio
-│
-└───────⭓
+⌕ ${prefix}coffe
+⌕ ${prefix}quotesanime
+⌕ ${prefix}motivasi
+⌕ ${prefix}dilanquote
+⌕ ${prefix}bucinquote
+⌕ ${prefix}katasenja
+⌕ ${prefix}puisi
+⌕ ${prefix}couple
+⌕ ${prefix}anime
+⌕ ${prefix}waifu
+⌕ ${prefix}husbu
+⌕ ${prefix}neko
+⌕ ${prefix}shinobu
+⌕{prefix}megumin
+⌕ ${prefix}uniform
+⌕ ${prefix}maid
 
-┌──⭓ *Convert Menu*
-│
-│⭔ ${prefix}attp
-│⭔ ${prefix}ttp
-│⭔ ${prefix}toimage
-│⭔ ${prefix}removebg
-│⭔ ${prefix}sticker
-│⭔ ${prefix}stickerwm
-│⭔ ${prefix}emojimix
-│⭔ ${prefix}emojimix2
-│⭔ ${prefix}tovideo
-│⭔ ${prefix}togif
-│⭔ ${prefix}tourl
-│⭔ ${prefix}tovn
-│⭔ ${prefix}tomp3
-│⭔ ${prefix}toaudio
-│⭔ ${prefix}ebinary
-│⭔ ${prefix}dbinary
-│⭔ ${prefix}styletext
-│⭔ ${prefix}smeme
-│
-└───────⭓
+✘ *R A N D O M - N S F W*
+⌕ ${prefix}waifus (nsfw)
+⌕ ${prefix}nekos (nsfw)
+⌕ ${prefix}trap (nsfw)
+⌕ ${prefix}blowjob (nsfw)
+⌕ ${prefix}hentai (nsfw)
+⌕ ${prefix}ass (nsfw)
+⌕ ${prefix}paizuri (nsfw)
 
-┌──⭓ *Main Menu*
-│
-│⭔ ${prefix}ping
-│⭔ ${prefix}owner
-│⭔ ${prefix}menu / ${prefix}help / ${prefix}?
-│⭔ ${prefix}delete
-│⭔ ${prefix}infochat
-│⭔ ${prefix}quoted
-│⭔ ${prefix}listpc
-│⭔ ${prefix}listgc
-│⭔ ${prefix}listonline
-│⭔ ${prefix}speedtest
-│
-└───────⭓
+✘ *T E X T - P R O*
 
-┌──⭓ *Database Menu*
-│
-│⭔ ${prefix}setcmd
-│⭔ ${prefix}listcmd
-│⭔ ${prefix}delcmd
-│⭔ ${prefix}lockcmd
-│⭔ ${prefix}addmsg
-│⭔ ${prefix}listmsg
-│⭔ ${prefix}getmsg
-│⭔ ${prefix}delmsg
-│
-└───────⭓
+⌕ ${prefix}3dchristmas
+⌕ ${prefix}3ddeepsea
+⌕ ${prefix}americanflag
+⌕ ${prefix}3dscifi
+⌕ ${prefix}3drainbow
+⌕ ${prefix}3dwaterpipe
+⌕ ${prefix}halloweenskeleton
+⌕ ${prefix}sketch
+⌕ ${prefix}bluecircuit
+⌕ ${prefix}space
+⌕ ${prefix}metallic
+⌕ ${prefix}fiction
+⌕ ${prefix}greenhorror
+⌕ ${prefix}transformer
+⌕ ${prefix}berry
+⌕ ${prefix}thunder
+⌕ ${prefix}magma
+⌕ ${prefix}3dcrackedstone
+⌕ ${prefix}3dneonlight
+⌕ ${prefix}impressiveglitch
+⌕ ${prefix}naturalleaves
+⌕ ${prefix}fireworksparkle
+⌕ ${prefix}matrix
+⌕ ${prefix}dropwater
+⌕ ${prefix}harrypotter
+⌕ ${prefix}foggywindow
+⌕ ${prefix}neondevils
+⌕ ${prefix}christmasholiday
+⌕ ${prefix}3dgradient
+⌕ ${prefix}blackpink
+⌕ ${prefix}gluetext
 
-┌──⭓ *Anonymous Menu*
-│
-│⭔ ${prefix}anonymous
-│⭔ ${prefix}start
-│⭔ ${prefix}next
-│⭔ ${prefix}keluar
-│
-└───────⭓
+✘ *P H O T O - O X Y*
 
-┌──⭓ *Islamic Menu*
-│
-│⭔ ${prefix}iqra
-│⭔ ${prefix}hadist
-│⭔ ${prefix}alquran
-│⭔ ${prefix}juzamma
-│⭔ ${prefix}tafsirsurah
-│
-└───────⭓
+⌕ ${prefix}shadow
+⌕ ${prefix}romantic
+⌕ ${prefix}smoke
+⌕ ${prefix}burnpapper
+⌕ ${prefix}naruto
+⌕ ${prefix}lovemsg
+⌕ ${prefix}grassmsg
+⌕ ${prefix}lovetext
+⌕ ${prefix}coffecup
+⌕ ${prefix}butterfly
+⌕ ${prefix}harrypotter
+⌕ ${prefix}retrolol
 
-┌──⭓ *Voice Changer*
-│
-│⭔ ${prefix}bass
-│⭔ ${prefix}blown
-│⭔ ${prefix}deep
-│⭔ ${prefix}earrape
-│⭔ ${prefix}fast
-│⭔ ${prefix}fat
-│⭔ ${prefix}nightcore
-│⭔ ${prefix}reverse
-│⭔ ${prefix}robot
-│⭔ ${prefix}slow
-│⭔ ${prefix}tupai
-│
-└───────⭓
+✘ *E - P H O T O*
 
-┌──⭓ *Owner Menu*
-│
-│⭔ ${prefix}react [emoji]
-│⭔ ${prefix}chat [option]
-│⭔ ${prefix}join [link]
-│⭔ ${prefix}leave
-│⭔ ${prefix}block @user
-│⭔ ${prefix}unblock @user
-│⭔ ${prefix}bcgroup [text]
-│⭔ ${prefix}bcall [text]
-│⭔ ${prefix}setppbot [image]
-│⭔ ${prefix}setexif
-│⭔ ${prefix}setmenu [option]
-│
-└───────⭓`
+⌕ ${prefix}ffcover
+⌕ ${prefix}crossfire
+⌕ ${prefix}galaxy
+⌕ ${prefix}glass
+⌕ ${prefix}neon
+⌕ ${prefix}beach
+⌕ ${prefix}blackpink
+⌕ ${prefix}igcertificate
+⌕ ${prefix}ytcertificate
+
+✘ *F U N - F E A T U R E*
+
+⌕ ${prefix}halah
+⌕ ${prefix}hilih
+⌕ ${prefix}huluh
+⌕ ${prefix}heleh
+⌕ ${prefix}holoh
+⌕ ${prefix}jadian
+⌕ ${prefix}jodohku
+⌕ ${prefix}delttt
+⌕ ${prefix}tictactoe
+⌕ ${prefix}family100
+⌕ ${prefix}tebak [option]
+⌕ ${prefix}math [mode]
+⌕ ${prefix}suitpvp [@tag]
+
+✘ *P R I M B O N*
+
+⌕ ${prefix}nomorhoki
+⌕ ${prefix}artimimpi
+⌕ ${prefix}artinama
+⌕ ${prefix}ramaljodoh
+⌕ ${prefix}ramaljodohbali
+⌕ ${prefix}suamiistri
+⌕ ${prefix}ramalcinta
+⌕ ${prefix}cocoknama
+⌕ ${prefix}pasangan
+⌕ ${prefix}jadiannikah
+⌕ ${prefix}sifatusaha
+⌕ ${prefix}rezeki
+⌕ ${prefix}pekerjaan
+⌕ ${prefix}nasib
+⌕ ${prefix}penyakit
+⌕ ${prefix}tarot
+⌕ ${prefix}fengshui
+⌕ ${prefix}haribaik
+⌕ ${prefix}harisangar
+⌕ ${prefix}harisial
+⌕ ${prefix}nagahari
+⌕ ${prefix}arahrezeki
+⌕ ${prefix}peruntungan
+⌕ ${prefix}weton
+⌕ ${prefix}karakter
+⌕ ${prefix}keberuntungan
+⌕ ${prefix}memancing
+⌕ ${prefix}masasubur
+⌕ ${prefix}zodiak
+⌕ ${prefix}shio
+
+✘ *C O N V E R T - S T I C K E R*
+
+⌕ ${prefix}attp
+⌕ ${prefix}ttp
+⌕{prefix}toimage
+⌕ ${prefix}removebg
+⌕ ${prefix}sticker
+⌕ ${prefix}emojimix
+⌕ ${prefix}emojimix2
+⌕ ${prefix}tovideo
+⌕ ${prefix}togif
+⌕ ${prefix}tourl
+⌕ ${prefix}tovn
+⌕ ${prefix}tomp3
+⌕ ${prefix}toaudio
+⌕ ${prefix}ebinary
+⌕ ${prefix}dbinary
+⌕ ${prefix}styletext
+⌕ ${prefix}smeme
+
+✘ *M A I N - M E N U*
+
+⌕ ${prefix}ping
+⌕ ${prefix}owner
+⌕ ${prefix}menu / ${prefix}help / ${prefix}?
+⌕ ${prefix}delete
+⌕ ${prefix}infochat
+⌕ ${prefix}quoted
+⌕ ${prefix}listpc
+⌕ ${prefix}listgc
+⌕ ${prefix}listonline
+⌕ ${prefix}speedtest
+
+✘ *D A T A B A S E*
+
+⌕ ${prefix}setcmd
+⌕ ${prefix}listcmd
+⌕ ${prefix}delcmd
+⌕ ${prefix}lockcmd
+⌕ ${prefix}addmsg
+⌕ ${prefix}listmsg
+⌕ ${prefix}getmsg
+⌕ ${prefix}delmsg
+
+✘ *A N O N Y M O U S - C H A T*
+
+⌕ ${prefix}anonymous
+⌕ ${prefix}start
+⌕ ${prefix}next
+⌕ ${prefix}keluar
+⌕ ${prefix}sendkontak
+
+✘ *I S L A M - F E A T U R E*
+
+⌕ ${prefix}iqra
+⌕ ${prefix}hadist
+⌕ ${prefix}alquran
+⌕ ${prefix}juzamma
+⌕ ${prefix}tafsirsurah
+
+✘ *V O I C E - C H A N G E R*
+
+⌕ ${prefix}bass
+⌕ ${prefix}blown
+⌕ ${prefix}deep
+⌕ ${prefix}earrape
+⌕ ${prefix}fast
+⌕ ${prefix}fat
+⌕ ${prefix}nightcore
+⌕ ${prefix}reverse
+⌕ ${prefix}robot
+⌕ ${prefix}slow
+⌕ ${prefix}tupai
+
+✘ *O W N E R - M E N U*
+
+⌕ ${prefix}react [emoji]
+⌕ ${prefix}chat [option]
+⌕ ${prefix}join [link]
+⌕ ${prefix}leave
+⌕ ${prefix}block @user
+⌕ ${prefix}unblock @user
+⌕ ${prefix}bcgroup [text]
+⌕ ${prefix}bcall [text]
+⌕ ${prefix}setppbot [image]
+⌕ ${prefix}setexif
+⌕${prefix}setmenu [option]
+`
                 let btn = [{
                                 urlButton: {
-                                    displayText: 'Source Code',
-                                    url: 'https://github.com/DikaArdnt/Hisoka-Morou'
-                                }
-                            }, {
-                                callButton: {
-                                    displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 882-9202-4190'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Status Bot',
-                                    id: 'ping'
-                                }
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Contact Owner',
-                                    id: 'owner'
-                                }  
-                            }, {
-                                quickReplyButton: {
-                                    displayText: 'Script',
-                                    id: 'sc'
-                                }
-                            }]
+                                    displayText: '𝙶𝚛𝚘𝚞𝚙 𝙱𝚘𝚝',
+                                    url: 'https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'
+            }
+          },
+          {
+            "quickReplyButton": {
+              "displayText": "𝙊𝙬𝙣𝙚𝙧",
+"id": 'owner'
+            }
+          },
+{
+            "quickReplyButton": {
+              "displayText": "𝘿𝙤𝙣𝙖𝙨𝙞",
+"id": 'donasi'
+            }
+          }
+        ]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn, global.thumb)
+                        hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
                         } else if (setbot.templateGif) {
-                        hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn, global.thumb)
+                        hisoka.send5ButGif(m.chat, anu, hisoka.user.name, global.visoka, btn)
                         } else if (setbot.templateVid) {
-                        hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn, global.thumb)
+                        hisoka.send5ButVid(m.chat, anu, hisoka.user.name, global.visoka, btn)
                         } else if (setbot.templateMsg) {
                         hisoka.send5ButMsg(m.chat, anu, hisoka.user.name, btn)
-                        } else if (setbot.templateLocation) {
-                        hisoka.send5ButLoc(m.chat, anu, hisoka.user.name, global.thumb, btn)
                         }
                      }
             break
