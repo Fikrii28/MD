@@ -1653,7 +1653,7 @@ break
             case 'cecan': case 'china': case 'thailand':  case 'kayes': case 'aeunicetjoaa': case 'natajadeh': {
                 m.reply(mess.wait)
                 let fetch = await global.api("zenz", "/randomasupan/" + command, {}, "apikey")
-                hisoka.sendFile(m.from, fetch, "", m, { caption: "Random TikTok Asupan" })
+                hisoka.sendFile(m.from, fetch, "", m, { caption: "Random TikTok Asupan" }, { quoted: m })
             }
            break
             case 'anime': case 'waifu': case 'husbu': case 'neko': case 'shinobu': case 'megumin': case 'waifus': case 'nekos': case 'trap': case 'blowjob': {
