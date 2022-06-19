@@ -558,7 +558,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
                             }
            break
            case 'sewabot': case 'sewa': case 'buypremium': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/4589d930b33f34a42ca02.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n ╠═〘 Sewa Bot 〙 ═
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/4589d930b33f34a42ca02.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n╠═〘 Sewa Bot 〙 ═
 ╠➥ *1 Minggu* :      *Rp 5.000*
 ╠➥ *1 Bulan* :      *Rp 10.000*
 ╠➥ *Permanen* : *Rp 20.000*
@@ -567,9 +567,8 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
 ╠➥ DANA/GOPAY
 ║
 ╠═ Tertarik Untuk Beli Bot Ini Hubungi No Di Bawah?
-╠➥ wa.me/6281233738677
-║
-╠══` }, { quoted: m })
+(
+╠➥ wa.me/6281233738677` }, { quoted: m })
             }
             break
             case 'sc': {
