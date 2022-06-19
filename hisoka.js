@@ -3080,24 +3080,21 @@ untuk membuat stiker dan lain lain
 ⌕${prefix}setmenu [option]
 `
                 let btn = [{
-                                urlButton: {
-                                    displayText: '𝙶𝚛𝚘𝚞𝚙 𝙱𝚘𝚝',
-                                    url: 'https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'
-            }
-          },
-          {
+                         urlButton: {
+                         displayText: '𝙶𝚛𝚘𝚞𝚙 𝙱𝚘𝚝',
+                         url: 'https://chat.whatsapp.com/KpS9eHNALBs3mXXJGtzuZE'
+                        }
+                      },{
             "quickReplyButton": {
               "displayText": "𝙊𝙬𝙣𝙚𝙧",
-"id": 'owner'
+              "id": 'owner'
             }
-          },
-{
+          },{
             "quickReplyButton": {
               "displayText": "𝘿𝙤𝙣𝙖𝙨𝙞",
-"id": 'donasi'
+              "id": 'donasi'
             }
-          }
-        ]
+          }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
                         hisoka.send5ButImg(m.chat, anu, hisoka.user.name, global.thumb, btn)
